@@ -1,0 +1,67 @@
+{
+  "consumer": {
+    "name": "jest"
+  },
+  "provider": {
+    "name": "yehe"
+  },
+  "interactions": [
+    {
+      "description": "a request for dogs",
+      "request": {
+        "method": "GET",
+        "path": "/GetLangConfig",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "code": 0,
+          "data": {
+            "list": [
+
+            ]
+          }
+        }
+      }
+    },
+    {
+      "description": "/GetLangConfig 获取语言配置",
+      "request": {
+        "method": "GET",
+        "path": "/GetLangConfig",
+        "headers": {
+          "Accept": "application/json"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "code": 0,
+          "data": {
+            "list": [
+              {
+                "flag": 1,
+                "isDefault": true,
+                "subfix": "en",
+                "desc": "英文",
+                "enable": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

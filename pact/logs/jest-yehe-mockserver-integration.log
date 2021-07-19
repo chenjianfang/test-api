@@ -1,0 +1,72 @@
+I, [2021-07-18T17:30:37.900642 #24152]  INFO -- : Registered expected interaction GET /GetLangConfig
+D, [2021-07-18T17:30:37.900791 #24152] DEBUG -- : {
+  "description": "/GetLangConfig 获取语言配置",
+  "request": {
+    "method": "GET",
+    "path": "/GetLangConfig",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "code": 0,
+      "data": {
+        "list": [
+          {
+            "flag": 1,
+            "isDefault": true,
+            "subfix": "en",
+            "desc": "英文",
+            "enable": true
+          }
+        ]
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2021-07-18T17:30:37.908465 #24152]  INFO -- : Received request GET /GetLangConfig
+D, [2021-07-18T17:30:37.908565 #24152] DEBUG -- : {
+  "path": "/GetLangConfig",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json",
+    "User-Agent": "axios/0.21.1",
+    "Host": "localhost:3033",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-07-18T17:30:37.908814 #24152]  INFO -- : Found matching response for GET /GetLangConfig
+D, [2021-07-18T17:30:37.908902 #24152] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "code": 0,
+    "data": {
+      "list": [
+        {
+          "flag": 1,
+          "isDefault": true,
+          "subfix": "en",
+          "desc": "英文",
+          "enable": true
+        }
+      ]
+    }
+  }
+}
+I, [2021-07-18T17:30:38.082772 #24152]  INFO -- : Verifying - interactions matched
+I, [2021-07-18T17:30:38.088457 #24152]  INFO -- : Cleared interactions
+I, [2021-07-18T17:30:38.094880 #24152]  INFO -- : Updating pact for yehe at /Users/chenjianfang/work/test-api/pact/pacts/jest-yehe.json
+I, [2021-07-18T17:30:38.096311 #24152]  INFO -- : *****************************************************************************
+I, [2021-07-18T17:30:38.096443 #24152]  INFO -- : Updating existing file ./Users/chenjianfang/work/test-api/pact/pacts/jest-yehe.json as pactfile_write_mode is :update
+I, [2021-07-18T17:30:38.096477 #24152]  INFO -- : Only interactions defined in this test run will be updated.
+I, [2021-07-18T17:30:38.096503 #24152]  INFO -- : As interactions are identified by description and provider state, pleased note that if either of these have changed, the old interactions won't be removed from the pact file until the specs are next run with :pactfile_write_mode => :overwrite.
+I, [2021-07-18T17:30:38.096526 #24152]  INFO -- : *****************************************************************************

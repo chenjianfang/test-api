@@ -1,0 +1,206 @@
+I, [2021-07-19T19:10:21.440736 #93933]  INFO -- : Registered expected interaction GET /GetLangConfig
+D, [2021-07-19T19:10:21.440940 #93933] DEBUG -- : {
+  "description": "/GetLangConfig",
+  "request": {
+    "method": "GET",
+    "path": "/GetLangConfig"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "code": 0,
+      "data": {
+        "list": [
+          {
+            "flag": 4,
+            "isDefault": true,
+            "subfix": "fr",
+            "desc": "英文",
+            "enable": true
+          }
+        ]
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2021-07-19T19:10:21.450906 #93933]  INFO -- : Received request GET /GetLangConfig
+D, [2021-07-19T19:10:21.450994 #93933] DEBUG -- : {
+  "path": "/GetLangConfig",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json, text/plain, */*",
+    "User-Agent": "axios/0.21.1",
+    "Host": "localhost:3033",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-07-19T19:10:21.451284 #93933]  INFO -- : Found matching response for GET /GetLangConfig
+D, [2021-07-19T19:10:21.451371 #93933] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "code": 0,
+    "data": {
+      "list": [
+        {
+          "flag": 4,
+          "isDefault": true,
+          "subfix": "fr",
+          "desc": "英文",
+          "enable": true
+        }
+      ]
+    }
+  }
+}
+I, [2021-07-19T19:10:21.620112 #93933]  INFO -- : Verifying - interactions matched
+I, [2021-07-19T19:10:21.626747 #93933]  INFO -- : Cleared interactions
+I, [2021-07-19T19:10:21.634789 #93933]  INFO -- : Registered expected interaction GET /GetProduct
+D, [2021-07-19T19:10:21.634890 #93933] DEBUG -- : {
+  "description": "/GetProduct",
+  "request": {
+    "method": "GET",
+    "path": "/GetProduct"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "code": 0,
+      "data": {
+        "list": [
+          {
+            "createTime": "2021-07-14 18:06:16",
+            "creator": "yuebiaochen",
+            "depth": "2",
+            "description": "????",
+            "extra": "",
+            "hotrep": "intl.product.cvm",
+            "icon": "",
+            "id": 2,
+            "lang": "13",
+            "langRelated": "",
+            "name": "cvm",
+            "path": "[0]-[1]",
+            "pid": 1,
+            "redirectUrl": "https://www.bilibili.com/",
+            "remark": "",
+            "status": "1",
+            "target": "_self",
+            "type": "item",
+            "updateTime": "2021-07-14 18:06:16",
+            "updator": "sonicsun",
+            "weight": 100
+          }
+        ]
+      }
+    }
+  },
+  "metadata": null
+}
+I, [2021-07-19T19:10:21.641875 #93933]  INFO -- : Received request GET /GetProduct
+D, [2021-07-19T19:10:21.642101 #93933] DEBUG -- : {
+  "path": "/GetProduct",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Accept": "application/json, text/plain, */*",
+    "User-Agent": "axios/0.21.1",
+    "Host": "localhost:3033",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-07-19T19:10:21.642377 #93933]  INFO -- : Found matching response for GET /GetProduct
+D, [2021-07-19T19:10:21.642556 #93933] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "code": 0,
+    "data": {
+      "list": [
+        {
+          "createTime": "2021-07-14 18:06:16",
+          "creator": "yuebiaochen",
+          "depth": "2",
+          "description": "????",
+          "extra": "",
+          "hotrep": "intl.product.cvm",
+          "icon": "",
+          "id": 2,
+          "lang": "13",
+          "langRelated": "",
+          "name": "cvm",
+          "path": "[0]-[1]",
+          "pid": 1,
+          "redirectUrl": "https://www.bilibili.com/",
+          "remark": "",
+          "status": "1",
+          "target": "_self",
+          "type": "item",
+          "updateTime": "2021-07-14 18:06:16",
+          "updator": "sonicsun",
+          "weight": 100
+        }
+      ]
+    }
+  }
+}
+I, [2021-07-19T19:10:22.127421 #93933]  INFO -- : Verifying - interactions matched
+I, [2021-07-19T19:10:22.133200 #93933]  INFO -- : Cleared interactions
+I, [2021-07-19T19:10:22.139981 #93933]  INFO -- : Registered expected interaction POST /AddOrUpdateProduct
+D, [2021-07-19T19:10:22.140080 #93933] DEBUG -- : {
+  "description": "/AddOrUpdateProduct",
+  "request": {
+    "method": "POST",
+    "path": "/AddOrUpdateProduct"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+    },
+    "body": {
+      "code": 0
+    }
+  },
+  "metadata": null
+}
+I, [2021-07-19T19:10:22.476599 #93933]  INFO -- : Received request POST /AddOrUpdateProduct
+D, [2021-07-19T19:10:22.476720 #93933] DEBUG -- : {
+  "path": "/AddOrUpdateProduct",
+  "query": "",
+  "method": "post",
+  "headers": {
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Accept": "application/json, text/plain, */*",
+    "User-Agent": "axios/0.21.1",
+    "Host": "localhost:3033",
+    "Connection": "close",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2021-07-19T19:10:22.476825 #93933]  INFO -- : Found matching response for POST /AddOrUpdateProduct
+D, [2021-07-19T19:10:22.476886 #93933] DEBUG -- : {
+  "status": 200,
+  "headers": {
+  },
+  "body": {
+    "code": 0
+  }
+}
+I, [2021-07-19T19:10:23.090587 #93933]  INFO -- : Verifying - interactions matched
+I, [2021-07-19T19:10:23.096622 #93933]  INFO -- : Cleared interactions
+I, [2021-07-19T19:10:23.101900 #93933]  INFO -- : Updating pact for yehe-backend at /Users/chenjianfang/work/test-api/pact/pacts/jest-yehe-backend.json
+I, [2021-07-19T19:10:23.102619 #93933]  INFO -- : *****************************************************************************
+I, [2021-07-19T19:10:23.102726 #93933]  INFO -- : Updating existing file ./Users/chenjianfang/work/test-api/pact/pacts/jest-yehe-backend.json as pactfile_write_mode is :update
+I, [2021-07-19T19:10:23.102763 #93933]  INFO -- : Only interactions defined in this test run will be updated.
+I, [2021-07-19T19:10:23.102791 #93933]  INFO -- : As interactions are identified by description and provider state, pleased note that if either of these have changed, the old interactions won't be removed from the pact file until the specs are next run with :pactfile_write_mode => :overwrite.
+I, [2021-07-19T19:10:23.102842 #93933]  INFO -- : *****************************************************************************

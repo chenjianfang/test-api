@@ -1,0 +1,98 @@
+{
+  "consumer": {
+    "name": "jest"
+  },
+  "provider": {
+    "name": "yehe-backend"
+  },
+  "interactions": [
+    {
+      "description": "/GetLangConfig",
+      "request": {
+        "method": "GET",
+        "path": "/GetLangConfig"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "code": 0,
+          "data": {
+            "list": [
+              {
+                "flag": 4,
+                "isDefault": true,
+                "subfix": "fr",
+                "desc": "英文",
+                "enable": true
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "description": "/GetProduct",
+      "request": {
+        "method": "GET",
+        "path": "/GetProduct"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "code": 0,
+          "data": {
+            "list": [
+              {
+                "createTime": "2021-07-14 18:06:16",
+                "creator": "yuebiaochen",
+                "depth": "2",
+                "description": "????",
+                "extra": "",
+                "hotrep": "intl.product.cvm",
+                "icon": "",
+                "id": 2,
+                "lang": "13",
+                "langRelated": "",
+                "name": "cvm",
+                "path": "[0]-[1]",
+                "pid": 1,
+                "redirectUrl": "https://www.bilibili.com/",
+                "remark": "",
+                "status": "1",
+                "target": "_self",
+                "type": "item",
+                "updateTime": "2021-07-14 18:06:16",
+                "updator": "sonicsun",
+                "weight": 100
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "description": "/AddOrUpdateProduct",
+      "request": {
+        "method": "POST",
+        "path": "/AddOrUpdateProduct"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "code": 0
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
